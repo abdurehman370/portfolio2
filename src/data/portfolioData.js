@@ -16,7 +16,7 @@ export const personalInfo = {
   },
   summary:
     "Software Engineer with hands-on experience building web, mobile, and e-commerce applications. Skilled in React, Next.js, Node.js, Remix, SQL, API integrations, automation, and web scraping. Built production-ready Shopify apps, internal business tools, and data-driven platforms with a focus on clean implementation and practical problem-solving.",
-  resumeUrl: "/Abdur_Rehman_Resume.pdf",
+  resumeUrl: "./Abdur_Rehman_Resume.pdf",
 };
 
 export const socialLinks = {
@@ -34,7 +34,7 @@ export const heroContent = {
     text: "Contact Me",
     href: "mailto:pc18050.abdurehman@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Abdur Rehman,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
-  ctaResume: { text: "Download Resume", href: "/Abdur_Rehman_Resume.pdf" },
+  ctaResume: { text: "Download Resume", href: "./Abdur_Rehman_Resume.pdf" },
 };
 
 export const aboutContent = {
@@ -185,18 +185,18 @@ export const projects = [
     ],
     links: {
       github: "https://github.com/abdurehman370/I-Car",
-      caseStudy: "/i-car-case-study.pdf",
+      caseStudy: "./i-car-case-study.pdf",
       demo1: "https://youtu.be/9dU3dyGEr3o", // Scraping Demo
       demo2: "https://youtu.be/ijQPD66E8FY", // Pricing Demo
     },
     images: [
-      { src: "/images/icar1.png", caption: "Home Page" },
-      { src: "/images/icar2.png", caption: "Dealer Login" },
-      { src: "/images/icar3.png", caption: "Dealer Dashboard" },
-      { src: "/images/icar4.png", caption: "Vehicle Evaluation — AI price prediction" },
-      { src: "/images/icar7.png", caption: "Admin login" },
-      { src: "/images/icar5.png", caption: "Admin Panel — managing listings and dealers" },
-      { src: "/images/icar6.png", caption: "Dealer Authentication" },
+      { src: "./images/icar1.png", caption: "Home Page" },
+      { src: "./images/icar2.png", caption: "Dealer Login" },
+      { src: "./images/icar3.png", caption: "Dealer Dashboard" },
+      { src: "./images/icar4.png", caption: "Vehicle Evaluation — AI price prediction" },
+      { src: "./images/icar7.png", caption: "Admin login" },
+      { src: "./images/icar5.png", caption: "Admin Panel — managing listings and dealers" },
+      { src: "./images/icar6.png", caption: "Dealer Authentication" },
     ],
     isFlagship: true,
   },
@@ -224,17 +224,17 @@ export const projects = [
     links: {
       github:
         "https://github.com/abdurehman370/ProcureAI-Smart-Inventory-Supply-Chain-Intelligence",
-      caseStudy: "/smart-procurement-case-study.pdf",
+      caseStudy: "./smart-procurement-case-study.pdf",
     },
     images: [
-      { src: "/images/procurement1.png", caption: "Executive Dashboard — Login-Page" },
-      { src: "/images/procurement2.png", caption: "Inventory Management — stock tracking" },
-      { src: "/images/procurement3.png", caption: "Demand Forecasting — AI-driven predictions" },
-      { src: "/images/procurement4.png", caption: "Vendor Management — supplier metrics" },
-      { src: "/images/procurement5.png", caption: "Purchase Orders — automated workflows" },
-      { src: "/images/procurement6.png", caption: "Warehouse Analytics — regional distribution" },
-      { src: "/images/procurement7.png", caption: "Price Anomaly Detection" },
-      { src: "/images/procurement8.png", caption: "System Settings & Configuration" },
+      { src: "./images/procurement1.png", caption: "Executive Dashboard — Login-Page" },
+      { src: "./images/procurement2.png", caption: "Inventory Management — stock tracking" },
+      { src: "./images/procurement3.png", caption: "Demand Forecasting — AI-driven predictions" },
+      { src: "./images/procurement4.png", caption: "Vendor Management — supplier metrics" },
+      { src: "./images/procurement5.png", caption: "Purchase Orders — automated workflows" },
+      { src: "./images/procurement6.png", caption: "Warehouse Analytics — regional distribution" },
+      { src: "./images/procurement7.png", caption: "Price Anomaly Detection" },
+      { src: "./images/procurement8.png", caption: "System Settings & Configuration" },
     ],
     isFlagship: true,
   },
@@ -263,17 +263,17 @@ export const projects = [
     ],
     links: {
       github: "https://github.com/abdurehman370/ClarityDesk-Ai",
-      caseStudy: "/claritydesk-case-study.pdf",
+      caseStudy: "./claritydesk-case-study.pdf",
     },
     images: [
-      { src: "/images/claritydesk2.png", caption: "Login / Signup page" },
-      { src: "/images/claritydesk3.png", caption: "Dashboard overview" },
-      { src: "/images/claritydesk4.png", caption: "Manage Workspaces" },
-      { src: "/images/claritydesk5.png", caption: "Upload Document for Workspace" },
-      { src: "/images/claritydesk6.png", caption: "AI Based Intelligence Memo" },
-      { src: "/images/claritydesk7.png", caption: "AI comparison matrix" },
-      { src: "/images/claritydesk8.png", caption: "AI Risk Analysis" },
-      { src: "/images/claritydesk9.png", caption: "Action Task Board" },
+      { src: "./images/claritydesk2.png", caption: "Login / Signup page" },
+      { src: "./images/claritydesk3.png", caption: "Dashboard overview" },
+      { src: "./images/claritydesk4.png", caption: "Manage Workspaces" },
+      { src: "./images/claritydesk5.png", caption: "Upload Document for Workspace" },
+      { src: "./images/claritydesk6.png", caption: "AI Based Intelligence Memo" },
+      { src: "./images/claritydesk7.png", caption: "AI comparison matrix" },
+      { src: "./images/claritydesk8.png", caption: "AI Risk Analysis" },
+      { src: "./images/claritydesk9.png", caption: "Action Task Board" },
     ],
     isFlagship: false,
   },
@@ -295,10 +295,10 @@ export const projects = [
       demo: "https://apps.shopify.com/devteampro-product-reviews",
     },
     images: [
-      { src: "/images/review1.jpg", caption: "Embedded Admin Moderation" },
-      { src: "/images/review2.jpg", caption: "Merchant Triage UX" },
-      { src: "/images/review3.jpg", caption: "Storefront Reviews Widget" },
-      { src: "/images/review4.jpg", caption: "Review App Settings" },
+      { src: "./images/review1.jpg", caption: "Embedded Admin Moderation" },
+      { src: "./images/review2.jpg", caption: "Merchant Triage UX" },
+      { src: "./images/review3.jpg", caption: "Storefront Reviews Widget" },
+      { src: "./images/review4.jpg", caption: "Review App Settings" },
     ],
     isFlagship: false,
   },
