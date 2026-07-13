@@ -204,6 +204,19 @@ const ProjectCard = ({ project, aosDelay, onImageClick }) => (
           </a>
         )}
 
+        {/* Live Link */}
+        {project.links.live && (
+          <a 
+            href={project.links.live}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-[#ff2a2a] text-white text-xs md:text-sm font-semibold hover:bg-red-600 hover:shadow-[0_0_20px_rgba(255,42,42,0.4)] transition-all duration-300"
+          >
+            <ExternalLinkIcon />
+            Live Project
+          </a>
+        )}
+
         {/* Shopify Storefront Demo link */}
         {project.links.demo && (
           <a 
