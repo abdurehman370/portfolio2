@@ -123,6 +123,9 @@ export const experienceList = [
       "API & Webhooks Integrations",
       "Theme Liquid Customization",
       "E-commerce Operations Flow",
+      "Custom Web Applications",
+      "AI Integrations",
+      "Workflows",
     ],
     tech: ["Remix", "Node.js", "Shopify APIs", "GraphQL", "Liquid", "React"],
     description:
@@ -184,6 +187,7 @@ export const projects = [
       "Managed background jobs and real-time email/alert delivery.",
     ],
     links: {
+      live: "https://carq.me/",
       github: "https://github.com/abdurehman370/I-Car",
       caseStudy: "./i-car-case-study.pdf",
       demo1: "https://youtu.be/9dU3dyGEr3o", // Scraping Demo
